@@ -1,0 +1,18 @@
+<web-app>
+   <servlet>
+       <servlet-name>demo</servlet-name>
+       <servlet-class>com.tmf.servlets.Demo</servlet-class>
+   </servlet>
+   <servlet-mapping>
+        <servlet-name>demo</servlet-name>
+        <url-pattern>/call</url-pattern>
+   </servlet-mapping>
+   <servlet>
+       <servlet-name>save</servlet-name>
+       <servlet-class>com.tmf.servlets.SaveProduct</servlet-class>
+   </servlet>
+   <servlet-mapping>
+        <servlet-name>save</servlet-name>
+        <url-pattern>/saveProduct</url-pattern>
+   </servlet-mapping>
+</web-app>
